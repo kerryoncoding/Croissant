@@ -5,6 +5,12 @@ body{
     background-color: #b6ffd2;
 }
 
+.history {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .croissant-image {
     max-width: 800px;
     border-radius: 25px;
@@ -12,7 +18,21 @@ body{
     margin-bottom: 30px;
 }
 
-a {
-    padding: 25px;
-    
+.page-links {
+    margin: 35px;
+    color: red;
+    text-decoration: none;
+}
+
+.page-links:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.email-link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+
 }
